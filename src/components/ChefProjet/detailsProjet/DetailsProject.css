@@ -1,0 +1,209 @@
+.detail-projet {
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+.project-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px; 
+  }
+  .project-title {
+    margin: 0; 
+    flex-grow: 1; 
+  }
+
+.projet-info,
+.taches-section {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.scrollable-container {
+  overflow-x: auto; 
+  max-width: 100%; /* */
+  display: block; /*  */
+  white-space: nowrap; 
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    white-space: nowrap; /* Empêcher le texte de s'étendre sur plusieurs lignes */
+}
+
+th {
+    background-color: #f4f4f4;
+}
+.button-group {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .icon-button {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0; 
+    margin: 0; 
+    font-size: 1.5rem; 
+    color: #bc1823; 
+    width: auto; 
+  height: auto; 
+  }
+  
+  .icon-button:hover {
+    color: #277913;
+  }
+  
+
+
+  
+.icon-action {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.icon-action:hover {
+  color: #277913; 
+  transform: scale(1.1); 
+}
+.comment-action {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.comment-action:hover {
+  color: #6C757D;
+  transform: scale(1.1); 
+}
+
+.edit-icon {
+  color: #4CAF50; 
+}
+
+.edit-icon:hover {
+  color: #2E8B57; 
+}
+
+.delete-icon {
+  color: #f44336; 
+}
+
+.delete-icon:hover {
+  color: #d32f2f;
+}
+.comment-icon{
+  color: #007BFF;
+}
+
+.icon-action:last-child {
+  margin-right: 0;
+}
+
+.tasks-table td {
+  vertical-align: middle; 
+}
+.tasks-table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin-top: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+.tasks-table th {
+  background-color: #277913; 
+  color: #fff; 
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.tasks-table td {
+    padding: 10px;
+    border: 1px solid #ddd; 
+    font-size: 0.95rem;
+    text-align: left;
+    vertical-align: middle; 
+}
+
+.tasks-table tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+.tasks-table tr:hover {
+    background-color: #f1f1f1; 
+    cursor: pointer; 
+}
+#icons-action{
+  text-align: center;
+}
+#comment-action-td{
+  text-align: center;
+}
+
+.tasks-table tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+.tasks-table tr:hover {
+  background-color: #f1f1f1; 
+  cursor: pointer; 
+}
+
+
+.tasks-table th, .tasks-table td {
+  border: 1px solid #ddd; 
+  font-size: 0.95rem; 
+}
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-bottom: 10px; 
+}
+
+.tasks-header h3 {
+  margin: 0; 
+}
+.add-icon {
+  color: #6ac66b;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.add-icon:hover {
+  color: #519e4b; 
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 50px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #9c1212;
+  cursor: pointer;
+}
+
+.pagination button.active-page {
+  background-color: #277913; 
+  color: white;
+  font-weight: bold;
+}
