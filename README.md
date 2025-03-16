@@ -25,7 +25,7 @@ L’application est destinée à plusieurs types d’utilisateurs :
 ## 🛠️ Technologies Utilisées  
 
 ### **📌 Environnement de Développement**  
-- **IDE Backend** : IntelliJ IDEA / Eclipse  
+- **IDE Backend** : IntelliJ IDEA  
 - **IDE Frontend** : Visual Studio Code  
 
 ### **💻 Backend**  
