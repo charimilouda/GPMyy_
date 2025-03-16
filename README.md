@@ -16,9 +16,9 @@ L'application **GPMYY** a pour but de fournir un outil centralisé permettant de
 
 ## 👥 Public Cible  
 L’application est destinée à plusieurs types d’utilisateurs :  
-- **👑 Administrateurs** : Gestion des utilisateurs, rôles et accès (🚧 À développer)  
+- **👑 Administrateurs** : Gestion des utilisateurs, rôles et accès (🚧 en cours )  
 - **📂 Chefs de projet** : Création, planification et suivi des projets ✅  
-- **👥 Membres de l’équipe** : Exécution des tâches et interactions en équipe (🚧 À développer)  
+- **👥 Membres de l’équipe** : Exécution des tâches et interactions en équipe (🚧 en cours)  
 
 ---
 
