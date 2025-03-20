@@ -5,6 +5,9 @@ Dans un monde en pleine transformation numérique, la gestion de projets est dev
 
 Ce projet vise à développer une **application de gestion de projets** permettant aux équipes de travailler efficacement et de collaborer en toute transparence.
 
+### 🔗 Code du Backend  
+Le code du backend de l'application **GPMYY** est disponible dans ce [dépôt GitHub](https://github.com/charimilouda/GPMYY_Backend.git).
+
 ---
 
 ## 🎯 Objectif du Projet  
